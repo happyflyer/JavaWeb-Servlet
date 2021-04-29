@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>encoding</title>
+  <link rel="stylesheet" href="bootstrap-4.4.1-dist/css/bootstrap.min.css">
+  <script src="bootstrap-4.4.1-dist/js/bootstrap.min.js"></script>
+  <script src="jquery-3.5.1/jquery-3.5.1.min.js"></script>
+  <script src="popper-2.5.3/popper.min.js"></script>
+</head>
+<body>
+<div class="container align-content-center">
+  <form action="character.view" method="post">
+    <div class="form-group">
+      <label for="user">姓名: </label>
+      <input id="user" class="form-control" type="text" name="user" value="">
+    </div>
+    <div class="form-group">
+      <label for="email">电子邮件：</label>
+      <input id="email" class="form-control" type="text" name="email" value="">
+    </div>
+    <div class="form-group">
+      <label for="pet">宠物：</label>
+      <select id="pet" name="type" size="6" multiple="1">
+        <option value="猫">猫</option>
+        <option value="狗">狗</option>
+        <option value="鱼">鱼</option>
+        <option value="鸟">鸟</option>
+      </select>
+    </div>
+    <Button class="btn btn-primary" name="btn" value="submit">提交</Button>
+  </form>
+</div>
+</body>
+</html>

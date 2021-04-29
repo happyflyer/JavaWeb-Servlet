@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>encoding</title>
+  <link rel="stylesheet" href="bootstrap-4.4.1-dist/css/bootstrap.min.css">
+  <script src="bootstrap-4.4.1-dist/js/bootstrap.min.js"></script>
+  <script src="jquery-3.5.1/jquery-3.5.1.min.js"></script>
+  <script src="popper-2.5.3/popper.min.js"></script>
+</head>
+<body>
+<div class="container align-content-center">
+  <form action="upload4.do" method="post" enctype="multipart/form-data">
+    <div class="form-group">
+      <input id="file1" type="file" name="filename1" value="">
+    </div>
+    <div class="form-group">
+      <input id="file2" type="file" name="filename2" value="">
+    </div>
+    <div class="form-group">
+      <input id="file3" type="file" name="filename3" value="">
+    </div>
+    <Button class="btn btn-primary" name="btn" value="upload">上传</Button>
+  </form>
+</div>
+</body>
+</html>
